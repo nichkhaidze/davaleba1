@@ -1,0 +1,99 @@
+body {
+    padding: 10px;
+}
+
+article {
+    position:absolute;
+    width: 345px;
+    left: 30px;
+    top: 10px;
+    background: #2b3566;
+    border-radius: 20px;
+}
+
+article.box2 {
+    left: 450px;
+    background: #242424;
+}
+
+article.box2 button {
+    border: 1px solid #002BFF;
+}
+
+article.box2 button:hover {
+    background-color: #002BFF;
+    color:#fff;
+}
+
+article.box3 {
+    background: #DD1F32;
+    left: 880px;
+}
+
+article.box3 button {
+    border: 1px solid #FDD91A;
+}
+
+article.box3 button:hover {
+    background-color: #FDD91A;
+    color:#DD1F32;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 30px ;
+    line-height: 35px;
+    margin: 0;
+}
+
+p {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 12px ;
+    line-height: 14px;
+    margin: 21px 0px 48px 0px;
+}
+
+button {
+    width: 100%;
+    border-radius: 23px;
+    background-color: transparent;
+    border: 1px solid #45D3C2;
+    padding: 14px 0px 14px 0px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+button:hover {
+    background-color: #45D3C2;
+    color: #2B3566;
+}
+
+ul {
+    padding-left: 0px;
+    margin: 0px 0px 50px 25px;
+    list-style: none;
+    list-style-image: url(vector.png);
+}
+
+ul li {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0px 0px 7px 7px;
+}
+
+article.box2 ul {
+    list-style-image: url(meore.png);
+}
+
+article.box3 ul {
+    list-style-image: url(mesame.png);
+}
+
+article div {
+    padding: 47px 56px 47px 56px;
+    color: #fff;
+}
